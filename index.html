@@ -135,7 +135,7 @@
             var geoJSON = Sheetsee.createGeoJSON(gData, optionsJSON)
             // create map, tilelayer (map background), markers and popups
             var map = Sheetsee.loadMap("map")
-           // Sheetsee.addTileLayer(map, 'jllord.n7aml2bc')
+           Sheetsee.addTileLayer(map, 'jllord.n7aml2bc')
             var markerLayer = Sheetsee.addMarkerLayer(geoJSON, map, "<h2>{{ name }}</h2>", true)
             // find the latest spot with the most important
             // info filled in (to prevent map breaking if
