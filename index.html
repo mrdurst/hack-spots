@@ -24,9 +24,9 @@
             <ul class="nav">
                 <li><strong>The collected favorites of those who hack</strong></li>
                 <li><a href="#info">INFO</a> -</li>
-                <li><a href="http://jlord.github.com/sheetsee.js" target="_blank">POWERED BY SHEETSEE.JS /jllord</a> -</li>
-                <li><a href="http://www.getraenke-gilch.de" target="_blank">Getränke Gilch</a> -</li>
-                //<li><a href="https://www.webdrink.de/getraenke-gilch-nuernberg/" target="_blank">Getränke Gilch @ webdrink.de</a></li>
+                <li><a href="http://jlord.github.com/sheetsee.js" target="_blank">POWERED BY SHEETSEE.JS</a> -</li>
+                <li><a href="http://www.github.com/jlord/hack-spots" target="_blank">GITHUB</a> -</li>
+                //<li><a href="http://www.twitter.com/jllord" target="_blank">@JLLORD</a></li>
             </ul>
         </div>
         <div class="container">
@@ -74,7 +74,7 @@
             <p class="colorText">{{city}}{{#state}}, {{state}}{{/state}}{{#postcode}}, {{postcode}}{{/postcode}}</p>
             <ul>
                 <li><span class="category">Liefergebiet:</span> {{liefergebiet}}</li>
-                <li><span class="category">website:</span> {{website}}</li>
+                <li><span class="category">Outlets:</span> {{outlets}}</li>
                 <li><span class="category">Couch:</span> {{couch}}</li>
                 <li><span class="category">Large Table:</span> {{largetable}}</li>
                 <li><span class="category">Outdoor Seating:</span> {{outdoorseating}}</li>
@@ -100,7 +100,7 @@
             <p class="colorText">{{city}}{{#state}}, {{state}}{{/state}}{{#postcode}}, {{postcode}}{{/postcode}}</p>
             <ul>
                 <li><span class="category">Liefergebiet:</span> {{liefergebiet}}</li>
-                <li><span class="category">website:</span> {{website}}</li>
+                <li><span class="category">Outlets:</span> {{outlets}}</li>
                 <li><span class="category">Couch:</span> {{couch}}</li>
                 <li><span class="category">Large Table:</span> {{largetable}}</li>
                 <li><span class="category">Outdoor Seating:</span> {{outdoorseating}}</li>
@@ -135,7 +135,7 @@
             var geoJSON = Sheetsee.createGeoJSON(gData, optionsJSON)
             // create map, tilelayer (map background), markers and popups
             var map = Sheetsee.loadMap("map")
-         //  Sheetsee.addTileLayer(map, 'jllord.n7aml2bc')
+           Sheetsee.addTileLayer(map, 'jllord.n7aml2bc')
             var markerLayer = Sheetsee.addMarkerLayer(geoJSON, map, "<h2>{{ name }}</h2>", true)
             // find the latest spot with the most important
             // info filled in (to prevent map breaking if
