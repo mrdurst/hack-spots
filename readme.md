@@ -1,13 +1,16 @@
 # Hi!
 
-![screenshot](https://raw.github.com/jlord/hack-spots/gh-pages/img/hackspotsss.png)
+//![screenshot](https://raw.github.com/jlord/hack-spots/gh-pages/img/hackspotsss.png)
 
-This is the code for a website that shows the spots myself, my friends (or Twitter friends) have found to be excellent hacking spots around the whole wide world.
+This is code for a website that shows business related spots.
 
-### Fork -n- Go!
+### forked -n- gone from there :)!
 
-Here's a fun fact:
+check it out & see below
 
+yours mr-durst@getraenke-gilch.de
+
+--> http://jlord.github.io/forkngo
 GitHub gives free hosting for every repository (see [GitHub Pages](http://pages.github.com)). 
 
 This repo only has a **gh-pages** branch, the branch GitHub hosts, which means as soon as you **fork** it, you have a hosted and live version of it yourself! Read more about [fork-n-go](http://jlord.github.io/forkngo) type of projects.
